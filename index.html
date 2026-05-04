@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Jason ENGWALA — BTS SIO option SISR, alternance Orange Business SA.">
+    <title>Accueil | Jason ENGWALA — BTS SIO SISR</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a class="brand" href="index.html">Jason <span>ENGWALA</span></a>
+            <button type="button" class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-primary" aria-label="Navigation principale">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Accueil</a></li>
+                    <li><a href="bts-sio.html">BTS SIO</a></li>
+                    <li><a href="entreprise.html">Entreprise</a></li>
+                    <li><a href="e5.html">E5</a></li>
+                    <li><a href="e6.html">E6</a></li>
+                    <li><a href="documents/tableau%20comp%C3%A9tences/BTS_SIO_Annexe_VI.5_Epreuve%20E5%20-%20Tableau%20de%20synthe_se_2026%20%281%29.pdf" target="_blank" rel="noopener">Tableau de synthèse E5 (PDF)</a></li>
+                    <li><a href="veille.html">Veille tech</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+            </div>
+            <div class="terminal-body">
+                <div class="line l1"><span class="prompt">guest@sisr:~$</span> whoami</div>
+                <div class="response r1">
+                    <span class="highlight">Jason ENGWALA</span><br>
+                    Étudiant en BTS SIO option SISR (Solutions d’Infrastructure, Systèmes et Réseaux) — École IRIS.<br>
+                    Alternant chez <span class="highlight">Orange Business SA</span> : infrastructures, réseaux et environnements professionnels.
+                </div>
+
+                <div class="line l2"><span class="prompt">guest@sisr:~$</span> ls ./competences</div>
+                <div class="response r2">
+                    &gt; <span class="highlight">Réseaux :</span> segmentation (VLAN), routage, pare-feu, supervision<br>
+                    &gt; <span class="highlight">Systèmes :</span> Windows Server / Linux, services réseau, bonnes pratiques d’exploitation<br>
+                    &gt; <span class="highlight">Virtualisation &amp; outils :</span> hyperviseurs, conteneurs (notions), scripts et automatisation légère
+                </div>
+
+                <div class="line l3"><span class="prompt">guest@sisr:~$</span> cat ./parcours.txt</div>
+                <div class="response r3">
+                    Formation en cours visant les métiers de l’administration des infrastructures et de la cybersécurité opérationnelle.<br>
+                    Veille technologique et livrables du référentiel BTS SIO (épreuves E5, E6, etc.).
+                </div>
+            </div>
+        </div>
+
+        <section class="section-block" id="profil">
+            <h2>Profil</h2>
+            <p>
+                Titulaire en formation du <strong>BTS SIO option SISR</strong> à l’<strong>École IRIS</strong>, je renforce mes acquis en alternance au sein d’<strong>Orange Business SA</strong>,
+                sur des problématiques d’infrastructure et de services aux entreprises. J’aime comprendre les chaînes techniques de bout en bout : du poste utilisateur au datacenter, en passant par le réseau et la sécurisation des accès.
+            </p>
+            <p>
+                Centres d’intérêt professionnels : exploitation et durcissement des systèmes, architecture réseau, résolution d’incidents, documentation et transfert de compétences au sein de l’équipe.
+            </p>
+            <div class="cta-row">
+                <a class="btn" href="documents/cv/portfolio_jason.docx" download target="_blank" rel="noopener">Télécharger le CV (.docx)</a>
+                <a class="btn btn--secondary" href="documents/tableau%20comp%C3%A9tences/BTS_SIO_Annexe_VI.5_Epreuve%20E5%20-%20Tableau%20de%20synthe_se_2026%20%281%29.pdf" target="_blank" rel="noopener">Tableau de synthèse E5 (PDF)</a>
+            </div>
+            <p class="page-intro" style="margin-top:16px;margin-bottom:0;font-size:0.85rem;">
+                Livrables rangés dans <code>documents/cv</code>, <code>documents/E5</code>, <code>documents/E6</code> et <code>documents/tableau compétences</code>.
+            </p>
+        </section>
+
+        <section class="section-block" id="competences">
+            <h2>Compétences techniques</h2>
+            <div class="cards-grid">
+                <article class="card">
+                    <h3>Systèmes</h3>
+                    <ul>
+                        <li>Windows Server (AD, DNS, DHCP — selon maquettes de TP / entreprise)</li>
+                        <li>Linux (administration de base, services, fichiers)</li>
+                        <li>Gestion des comptes, stratégies et journaux</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3>Réseaux</h3>
+                    <ul>
+                        <li>Modèle TCP/IP, adressage, sous-réseaux</li>
+                        <li>Commutation et routage (notions Cisco / équivalent)</li>
+                        <li>VPN, segmentation, filtrage</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3>Virtualisation</h3>
+                    <ul>
+                        <li>Machines virtuelles et consolidation des ressources</li>
+                        <li>Notions de conteneurisation et d’orchestration</li>
+                        <li>Sauvegarde et restauration (principes)</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3>Outils &amp; méthodes</h3>
+                    <ul>
+                        <li>Supervision et ticketing (selon contexte entreprise)</li>
+                        <li>Documentation technique et procédures</li>
+                        <li>Veille, normes et bonnes pratiques SISR</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Portfolio BTS SIO SISR — Jason ENGWALA · École IRIS · Orange Business SA · interface type terminal</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

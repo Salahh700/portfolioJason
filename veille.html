@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Veille technologique — L'intelligence artificielle : tendances et impacts SISR (Jason ENGWALA, IRIS, Orange Business Services).">
+    <title>Veille tech — IA | Jason ENGWALA</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a class="brand" href="index.html">Jason <span>ENGWALA</span></a>
+            <button type="button" class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-primary" aria-label="Navigation principale">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="bts-sio.html">BTS SIO</a></li>
+                    <li><a href="entreprise.html">Entreprise</a></li>
+                    <li><a href="e5.html">E5</a></li>
+                    <li><a href="e6.html">E6</a></li>
+                    <li><a href="documents/tableau%20comp%C3%A9tences/BTS_SIO_Annexe_VI.5_Epreuve%20E5%20-%20Tableau%20de%20synthe_se_2026%20%281%29.pdf" target="_blank" rel="noopener">Tableau de synthèse E5 (PDF)</a></li>
+                    <li><a href="veille.html" aria-current="page">Veille tech</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="veille-main">
+        <header class="veille-hero">
+            <p class="veille-hero__label">Veille technologique · BTS SIO 2<sup>e</sup> année option SISR</p>
+            <h1 class="veille-hero__title">L’intelligence artificielle</h1>
+            <p class="veille-hero__subtitle">Tendances, enjeux et impacts sur les métiers IT (2025–2026)</p>
+            <p class="veille-hero__meta">
+                <strong>Jason ENGWALA</strong> · Alternance Orange Business Services · Année scolaire 2024-2025 · École IRIS Paris 17<sup>e</sup>
+            </p>
+            <div class="cta-row veille-hero__cta">
+                <a class="btn" href="documents/veille/veille_ia_jason.docx" download>Télécharger le dossier (.docx)</a>
+                <a class="btn btn--secondary" href="#sources">Aller aux sources</a>
+            </div>
+        </header>
+
+        <nav class="veille-toc" aria-label="Sommaire de la veille">
+            <h2 class="veille-toc__title">Sommaire</h2>
+            <ol class="veille-toc__list">
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#marche">Marché et acteurs</a></li>
+                <li><a href="#tendances">Grandes tendances technologiques</a></li>
+                <li><a href="#cyber">IA et cybersécurité</a></li>
+                <li><a href="#ai-act">Cadre réglementaire — AI Act</a></li>
+                <li><a href="#sisr">Impact sur les métiers SISR</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+                <li><a href="#sources">Sources et références</a></li>
+            </ol>
+        </nav>
+
+        <section class="veille-section" id="intro">
+            <h2>1. Introduction</h2>
+            <p>
+                L’intelligence artificielle (IA) est aujourd’hui bien plus qu’une simple avancée technologique : elle constitue une transformation structurelle de l’économie mondiale, qui redéfinit en profondeur les pratiques professionnelles dans l’ensemble des secteurs, y compris celui des systèmes d’information et des réseaux.
+            </p>
+            <p>
+                Dans le cadre de ma formation en BTS SIO option SISR et de mon alternance chez <strong>Orange Business Services</strong>, j’ai souhaité consacrer cette veille technologique à l’IA, en raison de son impact direct et croissant sur les infrastructures réseau, la cybersécurité et les métiers de l’informatique. L’objectif est de présenter un état des lieux des grandes tendances actuelles, des chiffres clés du marché, des évolutions réglementaires et des impacts concrets sur le domaine SISR.
+            </p>
+            <aside class="veille-callout">
+                <strong>Définition.</strong> L’intelligence artificielle désigne l’ensemble des techniques permettant à une machine de simuler des comportements intelligents — apprentissage, raisonnement, prise de décision — à partir de données. On distingue l’IA étroite (spécialisée) de l’IA générative, capable de produire du contenu original.
+            </aside>
+        </section>
+
+        <section class="veille-section" id="marche">
+            <h2>2. Un marché en croissance explosive</h2>
+
+            <h3>2.1 Chiffres clés</h3>
+            <p>
+                Le marché mondial de l’intelligence artificielle connaît une dynamique sans précédent. En 2024, il pesait 184 milliards de dollars et les projections le situent à 826,7 milliards de dollars d’ici 2030, soit une croissance annuelle moyenne de 37&nbsp;%. Les investissements mondiaux dans ce secteur ont atteint 202,3 milliards de dollars en 2025, représentant 50&nbsp;% de l’ensemble du capital-risque mondial déployé cette année-là.
+            </p>
+
+            <div class="stats-grid" role="region" aria-label="Indicateurs clés du marché IA">
+                <div class="stats-grid__item">
+                    <span class="stats-grid__value">37&nbsp;%</span>
+                    <span class="stats-grid__label">Taux de croissance annuel moyen du marché mondial de l’IA (2024–2030)</span>
+                </div>
+                <div class="stats-grid__item">
+                    <span class="stats-grid__value">202&nbsp;Md$</span>
+                    <span class="stats-grid__label">Investissements mondiaux en IA en 2025 — 50&nbsp;% du capital-risque mondial</span>
+                </div>
+                <div class="stats-grid__item">
+                    <span class="stats-grid__value">826&nbsp;Md$</span>
+                    <span class="stats-grid__label">Taille estimée du marché IA en 2030</span>
+                </div>
+                <div class="stats-grid__item">
+                    <span class="stats-grid__value">15&nbsp;700&nbsp;Md$</span>
+                    <span class="stats-grid__label">Contribution estimée de l’IA à l’économie mondiale d’ici 2030 (~26&nbsp;% du PIB mondial)</span>
+                </div>
+            </div>
+
+            <p>
+                Les grandes entreprises technologiques — Alphabet, Meta, Microsoft, Amazon — ont collectivement engagé plus de 300 milliards de dollars en dépenses d’investissement en 2025, avec une projection de 530 milliards de dollars pour 2026. Cette concentration des investissements reflète la conviction que l’IA est la prochaine grande infrastructure de l’économie numérique.
+            </p>
+
+            <h3>2.2 Les acteurs majeurs</h3>
+            <p>Plusieurs acteurs dominent le paysage mondial de l’IA générative :</p>
+            <ul class="veille-list">
+                <li><strong>OpenAI</strong> (ChatGPT, GPT-4o) : valorisation de 500&nbsp;Md$ fin 2025, en forte progression</li>
+                <li><strong>Anthropic</strong> (Claude) : valorisation de 350&nbsp;Md$ en novembre 2025 après un tour de table de 15&nbsp;Md$</li>
+                <li><strong>Google DeepMind</strong> (Gemini) et <strong>xAI</strong> d’Elon Musk (Grok) complètent le podium</li>
+                <li>Côté européen, <strong>Mistral AI</strong> (France) s’affirme comme acteur souverain de l’IA open source</li>
+            </ul>
+        </section>
+
+        <section class="veille-section" id="tendances">
+            <h2>3. Les grandes tendances technologiques</h2>
+
+            <h3>3.1 L’IA générative et les modèles multimodaux</h3>
+            <p>
+                L’IA générative — capable de produire du texte, des images, de l’audio et de la vidéo à partir d’une consigne — est la technologie d’IA la plus adoptée en entreprise. En 2026, les modèles multimodaux permettent de traiter simultanément plusieurs types de données (texte, image, voix, vidéo), offrant une compréhension contextuelle bien plus fine que les approches segmentées précédentes.
+            </p>
+            <p>
+                51&nbsp;% des entreprises utilisent déjà l’IA générative pour la création de contenu, le support client et l’automatisation de processus. Le marché de l’IA générative pourrait atteindre 1&nbsp;300 milliards de dollars d’ici 2032.
+            </p>
+
+            <h3>3.2 Les agents IA autonomes</h3>
+            <p>
+                L’une des évolutions les plus structurantes est l’essor des <strong>agents IA</strong> : des systèmes capables d’agir de façon autonome pour accomplir des tâches complexes sans intervention humaine permanente. Gartner les identifie comme la tendance technologique majeure de 2025–2026. Des systèmes multi-agents — où plusieurs IA collaborent — se développent notamment dans la logistique, la santé et le développement logiciel.
+            </p>
+            <aside class="veille-callout">
+                <strong>Exemple concret.</strong> Dans le développement logiciel, les agents IA ont contribué à une hausse de 23&nbsp;% du nombre de pull requests fusionnées sur GitHub en 2025, avec 43 millions de demandes de modification traitées chaque mois.
+            </aside>
+
+            <h3>3.3 L’IA dans les infrastructures réseau</h3>
+            <p>Pour les professionnels SISR, l’IA transforme directement la gestion des réseaux et des systèmes. En 2026, le réseau est devenu le socle de l’IA, de la cybersécurité et de la performance opérationnelle.</p>
+            <ul class="veille-list">
+                <li><strong>AIOps</strong> : l’IA analyse en temps réel les logs réseau, détecte les anomalies et prédit les pannes avant qu’elles ne surviennent</li>
+                <li><strong>Wi-Fi 7</strong> : sa démocratisation en 2026 répond directement à l’explosion du trafic généré par les applications IA</li>
+                <li><strong>Gestion automatisée des configurations</strong> : l’IA réduit les erreurs humaines dans les déploiements d’infrastructure</li>
+                <li><strong>Optimisation des datacenters</strong> : les hyperscalers doublent leurs capacités de calcul tous les six mois pour répondre à la demande IA</li>
+            </ul>
+
+            <h3>3.4 L’IA dans la santé et la recherche scientifique</h3>
+            <p>
+                Le secteur de la santé est l’un des domaines où l’IA progresse le plus vite. Le système MAI-DxO de Microsoft AI a résolu des cas médicaux complexes avec une précision de 85,5&nbsp;%, contre environ 20&nbsp;% en moyenne pour des médecins expérimentés. Copilot et Bing répondent déjà à plus de 50 millions de questions de santé chaque jour. En recherche, l’IA participe activement aux découvertes en physique, chimie et biologie moléculaire.
+            </p>
+        </section>
+
+        <section class="veille-section" id="cyber">
+            <h2>4. IA et cybersécurité : le double tranchant</h2>
+            <p>
+                La cybersécurité est le domaine où l’impact de l’IA est à la fois le plus prometteur et le plus inquiétant. En 2026, l’IA est devenue la norme pour les attaquants comme pour les défenseurs.
+            </p>
+
+            <h3>4.1 L’IA au service des cyberattaquants</h3>
+            <p>
+                Les cybercriminels exploitent l’IA pour industrialiser et affiner leurs attaques à une échelle inédite. Les organisations ont subi en moyenne 1&nbsp;938 cyberattaques par semaine en octobre 2025, soit une hausse de 5&nbsp;% sur un an. L’Europe concentre 22&nbsp;% des attaques ransomware mondiales.
+            </p>
+            <p>Les principales menaces liées à l’IA identifiées pour 2026 sont :</p>
+            <ul class="veille-list">
+                <li><strong>Phishing hyper-personnalisé</strong> (50&nbsp;% des préoccupations des RSSI) : e-mails générés par IA indétectables à l’œil nu</li>
+                <li><strong>Deepfakes</strong> : contournement des systèmes de vérification d’identité (KYC) et fraudes financières</li>
+                <li><strong>Malwares adaptatifs</strong> (40&nbsp;%) capables de s’ajuster en temps réel aux défenses en place</li>
+                <li><strong>Attaques à vitesse machine</strong> : en 2026, l’intervention humaine disparaît de la boucle offensive</li>
+                <li><strong>Empoisonnement de données (data poisoning)</strong> : altération des jeux d’entraînement des modèles IA pour introduire des biais ou des portes dérobées</li>
+            </ul>
+
+            <h3>4.2 L’IA au service de la défense</h3>
+            <p>
+                En réponse, les équipes sécurité intègrent massivement l’IA dans leurs arsenaux défensifs. 77&nbsp;% des organisations utilisent déjà l’IA générative dans leur pile cybersécurité, et 67&nbsp;% ont déployé des agents IA semi-autonomes. Le trio gagnant en 2026 est : surveillance continue, authentification adaptative et réponses automatisées.
+            </p>
+            <ul class="veille-list">
+                <li><strong>Détection comportementale</strong> : l’IA identifie des schémas anormaux en quelques millisecondes</li>
+                <li><strong>Zero Trust renforcé par l’IA</strong> : aucun accès n’est accordé sans vérification dynamique du contexte</li>
+                <li><strong>SOC augmentés</strong> : les analystes sécurité sont assistés par des IA qui trient et priorisent les alertes</li>
+                <li><strong>Morgan Stanley</strong> prévoit un marché de la cybersécurité basée sur l’IA à 135&nbsp;Md$ d’ici 2030</li>
+            </ul>
+
+            <aside class="veille-callout">
+                <strong>Infrastructure.</strong> La directive NIS2 et l’AI Act imposent désormais des exigences de cybersécurité et de transparence pour les systèmes IA utilisés dans les infrastructures critiques. En 2026, le réseau est officiellement reconnu comme socle de la résilience numérique.
+            </aside>
+        </section>
+
+        <section class="veille-section" id="ai-act">
+            <h2>5. Le cadre réglementaire : l’AI Act européen</h2>
+            <p>
+                L’Union européenne a adopté le 13 juin 2024 l’<strong>AI Act</strong> (règlement UE 2024/1689), le premier cadre juridique mondial sur l’intelligence artificielle. Son application est progressive et suit un calendrier précis.
+            </p>
+
+            <h3>5.1 Calendrier d’application</h3>
+            <ul class="veille-list">
+                <li><strong>1<sup>er</sup> août 2024</strong> : entrée en vigueur de l’AI Act</li>
+                <li><strong>2 février 2025</strong> : interdiction immédiate des pratiques à risque inacceptable (manipulation comportementale, notation sociale, reconnaissance faciale en temps réel dans l’espace public)</li>
+                <li><strong>2 août 2025</strong> : obligations pour les fournisseurs de modèles d’IA à usage général (GPAI) — documentation, transparence, respect du droit d’auteur</li>
+                <li><strong>2 août 2026</strong> : application complète aux systèmes à haut risque — RH, crédit, santé, infrastructures critiques, justice</li>
+                <li><strong>2 novembre 2026</strong> : obligation de transparence pour les chatbots et contenus synthétiques</li>
+            </ul>
+
+            <h3>5.2 Classification des risques</h3>
+            <p>L’AI Act adopte une approche graduée selon quatre niveaux de risque :</p>
+            <ul class="veille-list">
+                <li><strong>Risque inacceptable (interdit)</strong> : scoring social, manipulation subliminale, reconnaissance faciale temps réel</li>
+                <li><strong>Haut risque</strong> : recrutement, crédit, diagnostic médical, infrastructures critiques — obligations strictes d’audit et de supervision humaine</li>
+                <li><strong>Risque limité</strong> : chatbots, deepfakes — obligation d’informer l’utilisateur qu’il interagit avec une IA</li>
+                <li><strong>Risque minimal</strong> : filtres anti-spam, recommandations e-commerce — aucune obligation spécifique</li>
+            </ul>
+
+            <h3>5.3 Sanctions et enjeux de conformité</h3>
+            <p>
+                Les sanctions sont significatives : jusqu’à 35 millions d’euros ou 7&nbsp;% du chiffre d’affaires mondial pour les violations les plus graves. Depuis février 2025, l’obligation de maîtrise de l’IA s’applique à tout le personnel travaillant avec des systèmes d’IA (article&nbsp;4). Pour les entreprises comme Orange, cela implique une cartographie des usages IA, une gouvernance formalisée et des formations documentées.
+            </p>
+        </section>
+
+        <section class="veille-section" id="sisr">
+            <h2>6. Impact sur les métiers SISR</h2>
+            <p>
+                En tant qu’étudiant en option SISR et technicien en alternance chez Orange Business Services, j’observe directement comment l’IA transforme les pratiques quotidiennes du support et de l’administration système.
+            </p>
+
+            <h3>6.1 Nouveaux outils et méthodes de travail</h3>
+            <ul class="veille-list">
+                <li><strong>Automatisation du déploiement</strong> : outils basés sur l’IA pour masteriser des postes et provisionner des comptes AD de façon semi-automatique</li>
+                <li><strong>AIOps pour la supervision réseau</strong> : détection proactive des incidents avant qu’ils n’impactent les utilisateurs</li>
+                <li><strong>Copilots IT</strong> : assistants IA intégrés aux outils ITSM pour prioriser et résoudre les tickets plus rapidement</li>
+                <li><strong>Sécurité renforcée</strong> : l’IA analyse les comportements utilisateurs pour détecter des accès suspects sur l’Active Directory</li>
+            </ul>
+
+            <h3>6.2 Compétences à développer</h3>
+            <p>L’intégration de l’IA dans les infrastructures crée de nouveaux besoins en compétences pour les profils SISR :</p>
+            <ul class="veille-list">
+                <li>Compréhension des architectures IA (LLM, agents, pipelines de données) pour intégrer ces composants dans le SI</li>
+                <li>Cybersécurité orientée IA : protéger les modèles contre l’empoisonnement de données et les attaques adverses</li>
+                <li>Conformité réglementaire : AI Act, RGPD et NIS2 applicables aux systèmes IA déployés en entreprise</li>
+                <li>Gestion des infrastructures de calcul : datacenters dédiés à l’IA (refroidissement, énergie, connectivité haute densité)</li>
+            </ul>
+
+            <h3>6.3 Enjeux éthiques et environnementaux</h3>
+            <p>
+                La consommation énergétique des grands modèles est considérable : l’entraînement de GPT-3 aurait généré plus de 550 tonnes de CO<sub>2</sub>. Par ailleurs, 75&nbsp;% des RSSI considèrent le <strong>shadow IA</strong> — usage non déclaré d’outils IA par les collaborateurs — comme un risque majeur, nécessitant une gouvernance adaptée.
+            </p>
+        </section>
+
+        <section class="veille-section" id="conclusion">
+            <h2>7. Conclusion</h2>
+            <p>
+                L’intelligence artificielle n’est plus une technologie émergente : c’est une infrastructure fondamentale de l’économie numérique de 2026. Pour les professionnels des systèmes et réseaux, elle représente à la fois un défi d’adaptation et une opportunité de valorisation des compétences.
+            </p>
+            <p>
+                Cette veille m’a permis de prendre conscience que le rôle d’un technicien SISR évolue : au-delà de la maintenance des infrastructures, il devient un acteur de la sécurisation et de la gouvernance des systèmes intelligents. Maîtriser les enjeux de l’IA — techniques, réglementaires et éthiques — est désormais indispensable pour exercer ce métier dans un environnement professionnel comme Orange Business Services.
+            </p>
+            <aside class="veille-callout">
+                <strong>Perspective personnelle.</strong> Dans le cadre de mon alternance, j’ai pu observer l’intégration progressive d’outils IA dans les processus de support informatique. La capacité à comprendre et à sécuriser ces outils sera, selon moi, une compétence clé pour les techniciens réseau et système de demain.
+            </aside>
+        </section>
+
+        <section class="veille-section veille-section--sources" id="sources">
+            <h2>Sources et références</h2>
+            <p class="veille-sources-intro"><em>Veille réalisée en avril 2026 à partir des sources suivantes :</em></p>
+            <ul class="source-list">
+                <li>Incremys — Statistiques IA 2026 : évolution du marché et des applications</li>
+                <li>Botpress — 10 tendances de l’intelligence artificielle à surveiller en 2026</li>
+                <li>IT Social — 2026 : l’année de la bascule technologique pour le réseau</li>
+                <li>Journal du Net — Entre IA et quantique, 8 menaces cyber à anticiper pour 2026</li>
+                <li>Kiteworks — État de la cybersécurité liée à l’IA en 2026</li>
+                <li>Euronews — Cybersécurité 2026 : des intrusions liées à l’IA aux menaces géopolitiques</li>
+                <li>Entreprises.gouv.fr — Le règlement européen sur l’intelligence artificielle</li>
+                <li>Leto.legal — AI Act 2026 : guide complet de conformité IA</li>
+                <li>France Épargne — L’état de l’intelligence artificielle à l’aube de 2026</li>
+                <li>Microsoft Source EMEA — Ce que l’IA nous réserve en 2026 : 7 tendances à suivre</li>
+                <li>CIO Online — En 7 constats, comment l’IA a redessiné la cyber en 2025</li>
+            </ul>
+        </section>
+
+        <div class="cta-row veille-footer-cta">
+            <a class="btn" href="documents/veille/veille_ia_jason.docx" download>Télécharger la version Word</a>
+            <a class="btn btn--secondary" href="contact.html">Contact</a>
+            <a class="btn btn--secondary" href="index.html">Accueil</a>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>Portfolio BTS SIO SISR — Jason ENGWALA · École IRIS · Orange Business SA</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

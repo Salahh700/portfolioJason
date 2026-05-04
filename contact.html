@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact — Jason ENGWALA, portfolio BTS SIO SISR.">
+    <title>Contact | Jason ENGWALA</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a class="brand" href="index.html">Jason <span>ENGWALA</span></a>
+            <button type="button" class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-primary" aria-label="Navigation principale">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="bts-sio.html">BTS SIO</a></li>
+                    <li><a href="entreprise.html">Entreprise</a></li>
+                    <li><a href="e5.html">E5</a></li>
+                    <li><a href="e6.html">E6</a></li>
+                    <li><a href="documents/tableau%20comp%C3%A9tences/BTS_SIO_Annexe_VI.5_Epreuve%20E5%20-%20Tableau%20de%20synthe_se_2026%20%281%29.pdf" target="_blank" rel="noopener">Tableau de synthèse E5 (PDF)</a></li>
+                    <li><a href="veille.html">Veille tech</a></li>
+                    <li><a href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="page-title">Contact</h1>
+        <p class="page-intro">
+            Pour échanger avec moi (recruteurs, équipe pédagogique, mentors), utilisez le formulaire ci-dessous ou les coordonnées que vous aurez renseignées.
+        </p>
+
+        <section class="section-block">
+            <h2>Formulaire</h2>
+            <form class="contact-form" id="contact-form" action="#" method="post" data-email="votre.email@exemple.com">
+                <label for="subject">Objet</label>
+                <input type="text" id="subject" name="subject" required placeholder="Objet du message" autocomplete="off">
+
+                <label for="body">Message</label>
+                <textarea id="body" name="body" required placeholder="Votre message…" autocomplete="off"></textarea>
+
+                <button type="submit" class="btn">Ouvrir dans le messager</button>
+            </form>
+            <p class="page-intro" style="margin-top:16px;font-size:0.85rem;">
+                Remplacez <code>data-email="votre.email@exemple.com"</code> sur la balise <code>&lt;form&gt;</code> par votre adresse réelle. Le bouton ouvre le client mail du visiteur avec l’objet et le corps préremplis.
+            </p>
+        </section>
+
+        <section class="contact-alt">
+            <h2 class="page-title" style="font-size:1.1rem;">Autres liens</h2>
+            <p>LinkedIn : <em>à compléter dans ce fichier HTML</em></p>
+            <p>GitHub ou forge : <em>à compléter si pertinent</em></p>
+            <div class="cta-row">
+                <a class="btn btn--secondary" href="documents/cv/portfolio_jason.docx" download target="_blank" rel="noopener">CV (.docx)</a>
+                <a class="btn" href="index.html">Retour à l’accueil</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Portfolio BTS SIO SISR — Jason ENGWALA · École IRIS · Orange Business SA</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
